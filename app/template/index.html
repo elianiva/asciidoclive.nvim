@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Asciidoc Live Preview</title>
+    {css}
+  </head>
+  <body>
+    <div id="result"></div>
+
+    <script>
+      window.onload = function () {
+        const result = document.getElementById("result");
+        const ws = new WebSocket("ws://localhost:3000/ws");
+        ws.onmessage = (msg) => {
+          result.innerHTML = msg.data;
+        };
+      };
+    </script>
+  </body>
+</html>
