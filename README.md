@@ -4,6 +4,8 @@
 An asciidoc live previewer for Neovim. Only works on recent Neovim version
 because it uses a relatively new `nvim_add_user_command` API
 
+https://user-images.githubusercontent.com/51877647/148905771-88b7d15e-1d50-4b9b-9ef5-ab753801d141.mp4
+
 ## Features
 - Live preview on each keystroke
 - Pretty stylings using [sakura.css](https://github.com/oxalorg/sakura)
@@ -62,6 +64,7 @@ PR's welcome, btw.
 
 ## Acknowledgement
 - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
+
   `asciidoclive.nvim` is basically a (very) dumbed down version of this.
 
 ---
