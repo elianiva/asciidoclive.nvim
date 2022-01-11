@@ -7,7 +7,7 @@ M.start_server = function(opts)
   local base_directory = vim.fn.fnamemodify(sourced_file, ":h:h:h")
   local cmd = {
     "node",
-    base_directory .. "/app/index.js",
+    base_directory .. "/dist/index.js",
     "index.js",
   }
 

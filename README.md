@@ -20,6 +20,7 @@ i use packer so..
 ```lua
 {
   "elianiva/asciidoclive.nvim",
+  run = "cd ./app && npm ci", -- install node dependencies
   config = function()
     -- these are the default values
     require("asciidoclive").setup {
@@ -48,6 +49,7 @@ updated in the future.
 - [ ] Add option to refresh on save
 - [ ] Debounce keystroke?
 - [ ] Send the entire buffer content on initial connection
+- [ ] No live scrolling
 - [ ] Only works on the buffer where you start the previewer
 
     Currently it behaves like this because I use `nvim_buf_attach` upon
