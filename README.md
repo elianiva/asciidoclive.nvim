@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/51877647/148905771-88b7d15e-1d50-4b9b-
 
 ## Requirements
 - Neovim after [this commit](https://github.com/neovim/neovim/commit/eff11b3c3fcb9aa777deafb0a33b1523aa05b603)
-- Node JS >= 12
+- Node JS >= 14
 - Neovim [node-client](https://github.com/neovim/node-client)
 
 ## Installation

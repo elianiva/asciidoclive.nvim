@@ -4,11 +4,11 @@ esbuild
   .build({
     entryPoints: ["index.js"],
     bundle: true,
-    format: "cjs",
+    format: "esm",
     platform: "node",
     external: ["asciidoctor", "neovim", "restana", "ws"],
-    outdir: "../dist",
-    target: ["es2020", "node12"]
+    outdir: "./dist",
+    target: ["es2020", "node14"]
   })
   .catch((e) => {
     console.error(e);
